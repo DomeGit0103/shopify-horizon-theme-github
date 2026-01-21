@@ -16,7 +16,7 @@
           "static": true,
           "settings": {
             "media_presentation": "grid",
-            "media_columns": "three",
+            "media_columns": "two",
             "image_gap": 4,
             "large_first_image": false,
             "icons_style": "none",
