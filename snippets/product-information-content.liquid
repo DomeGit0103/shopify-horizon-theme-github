@@ -9,6 +9,7 @@
   @param {object} settings - Section settings object
   @param {string} media_gallery - Captured HTML for the product media gallery block
   @param {string} product_details - Captured HTML for the product details block
+  @param {string} key_facts_component - Captured HTML for the product details block
   @param {string} additional_blocks - Captured HTML for additional section blocks
 
   @example
@@ -30,6 +31,7 @@
     settings: section.settings,
     media_gallery: media_gallery,
     product_details: product_details,
+    key_facts_component: key_facts_component,
     additional_blocks: additional_blocks
   %}
 {% enddoc %}
@@ -108,7 +110,7 @@
       {% endif %}
     {% endfor %}
   </div>
-
+  {{ key_facts_component }}
   {{ additional_blocks }}
 </div>
 
