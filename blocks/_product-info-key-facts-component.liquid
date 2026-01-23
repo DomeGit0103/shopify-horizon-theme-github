@@ -1,0 +1,22 @@
+{%  if section.blocks.size > 0 %}
+<div>
+    sds
+</div>
+{% endif %}
+{% schema %}
+{ 
+    "name": "Key Facts Block",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "iconKeyFact",
+        "label": "Komponente des Key Fact Triple Hotspots"
+      },
+      {
+        "type": "text",
+        "id": "keyFactContent",
+        "label": "Text, der für den einzelnen Key Fact gezeigt wird"
+      }
+    ] 
+}
+{% endschema %}
